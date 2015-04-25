@@ -1,0 +1,7 @@
+{
+  "name": "holydis",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1"
+  }
+}

@@ -1,0 +1,115 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - library variable overrides
+// variable overrides for css frameworks and libraries
+
+// Bootstrap
+
+//Grid
+
+//$navbar-height: 100px;
+$navbar-default-bg: $s-tertiary-color;
+$navbar-default-link-color: $s-text-secondary-color;
+$navbar-default-link-hover-color: #ffffff;
+$navbar-default-link-active-bg: $s-tertiary-color;
+$navbar-default-link-active-color: #ffffff;
+
+.navbar.main-nav {
+    font-family: 'Cabin-Medium';
+    border: none;
+
+    .navbar-brand {
+        padding: 0;
+    }
+}
+
+.navbar-default .navbar-nav > .active {
+    border-top: 3px solid #ffffff;
+
+    > a {
+        padding-top: 12px;
+    }
+}
+
+.glyphicon:empty {}
+
+// JStree Plugin - Sidebar Left
+
+.jstree {
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: 'Cabin-Regular';
+    font-size: 1.6rem;
+    color: #4b4b4b;
+    max-width: 200px;
+}
+
+.jstree-proton .jstree-themeicon {
+    display: none;
+}
+
+.jstree-proton .jstree-icon {
+    background-image: url(../images/32px.png);
+}
+
+.jstree-proton .jstree-themeicon-custom {
+    display: inherit;
+}
+
+.jstree-proton .jstree-node {
+    margin-left: 5px;
+    overflow: hidden;
+    padding: 4px 0;
+}
+
+.jstree-proton .jstree-wholerow-clicked {
+    background: #efefef;
+    color: #4b4b4b;
+}
+
+.jstree-proton .jstree-clicked {
+    color: #4b4b4b;
+}
+
+.jstree-proton .jstree-wholerow-hovered {
+    background-color: #b0d1dc;
+
+    a {
+        color: #4b4b4b;
+    }
+}
+
+.jstree-proton .jstree-anchor {
+    margin: 0;
+}
+
+.jstree-proton .jstree-wholerow {
+    overflow: hidden;
+    height: 30px;
+}
+
+.jstree-wholerow-ul {
+    width: 135%;
+}
+
+.jstree ul li:hover {
+    //background-color: #b0d1dc;
+
+    a {
+        color: #4b4b4b;
+    }
+}
+
+//!! Shame Code !!\\ Change le background de l'id j1_5 en bleu clair.
+
+#j1_5 .jstree-wholerow {
+    background-color: #d7e6eb;
+    width: 100%;
+}
+
+#j1_6 .jstree-wholerow-clicked {
+    background: #0296c3;
+}
+
+#j1_6 .jstree-clicked {
+    color: #fff;
+}

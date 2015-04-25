@@ -1,0 +1,32 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - skin
+// global skin styles - gradients, colors, box-shadows, etc.
+
+button {
+  //height: 34px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #32270e;
+  font-family: 'Cabin-Regular';
+  font-size: 1.6rem;
+}
+
+.button {
+  &--yellow {
+    background-color:#f9b20b;
+    a {
+      color: #32270e;
+    }
+  }
+
+  &--white {
+    background-color:#fff;
+    border: 2px solid #dedede;
+    color: #007396;
+  }
+}
+
+button > a {
+  text-decoration: none;
+}

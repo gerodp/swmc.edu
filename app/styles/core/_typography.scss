@@ -1,0 +1,74 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - typography
+// global typography styles
+
+// Icons
+
+.icon-bottom-arrow-white, .icon-bottom-arrow-black, .icon-bottom-arrow-black-right {
+    height: 11px;
+    float: right;
+    margin-top: 7px;
+}
+
+.icon-more {
+    height: 7px;
+    margin-right: 5px;
+}
+
+.icon-blue-more {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.icon-header-bottom-arrow {
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+/* Font Declaration ====================================================================== */
+
+@font-face {
+    font-family: 'Cabin-Bold';
+    src: url("../fonts/Cabin-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cabin-Medium';
+    src: url("../fonts/Cabin-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cabin-Regular';
+    src: url("../fonts/Cabin-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cabin-Italic';
+    src: url("../fonts/Cabin-Italic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cabin-SemiBold';
+    src: url("../fonts/Cabin-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+//@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+html, body {
+    font-family: "Cabin", "Helvetica", "Arial", sans-serif;
+}
